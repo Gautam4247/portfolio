@@ -1,0 +1,214 @@
+            .image-container {
+                height: 700px;
+                width: 100%;
+                background-size: cover;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(cycle.jpg);
+            }
+            
+            body {
+                margin: 0;
+            }
+            
+            h1.intro {
+                margin: 0;
+                margin-top: 16rem;
+                color: #dddddd;
+                font-size: 9vh;
+                text-align: center;
+                font-family: 'Roboto Mono', monospace;
+                justify-content: center;
+            }
+            
+            .topnav {
+                background-color: #333;
+                overflow: hidden;
+                text-decoration: none;
+                color: white;
+            }
+            
+            .topnav a {
+                float: right;
+                color: #f2f2f2;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            
+            .topnav a:hover {
+                color: #dddddd;
+            }
+            
+            .topnav a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+            
+            #about {
+                text-align: center;
+            }
+            /*abot-me-section {
+        text-align: center;
+    }*/
+            
+            span {
+                text-decoration: underline;
+            }
+            
+            .boy-img {
+                border-radius: 100%;
+                background-color: grey;
+                width: 12.5%;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+            
+            .boy-info {
+                line-height: 1.5;
+                font-size: 1.5rem;
+                font-weight: 500;
+                margin-bottom: 5rem;
+            }
+            /*my skills section css starts here
+*/
+            
+            #myskills {
+                width: 65%;
+                margin: 0 auto;
+            }
+            
+            .skills {
+                color: #0f4c75;
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 8rem;
+            }
+            /*coding*/
+            
+            .coding {
+                margin-top: 5rem;
+            }
+            
+            .web {
+                width: 20rem;
+                float: right;
+                margin-bottom: 5rem;
+                border: 2px solid black;
+                border-radius: 20%;
+            }
+            
+            p.coding-content {
+                font-size: 1.5rem;
+                line-height: 1.5;
+                font-weight: 500;
+                margin-bottom: 10rem;
+            }
+            /*cooking*/
+            
+            .cook {
+                width: 17rem;
+                float: left;
+                margin-bottom: 5rem;
+                margin-right: 5rem;
+                border-radius: 20%;
+            }
+            
+            p.cooking-content {
+                font-size: 1.5rem;
+                line-height: 1.5;
+                font-weight: 500;
+                margin-bottom: 13rem;
+            }
+            /*gaming*/
+            
+            .gaming {
+                margin-top: 5rem;
+            }
+            
+            .game {
+                width: 20rem;
+                float: right;
+                margin-bottom: 5rem;
+                border-radius: 20%;
+            }
+            
+            p.gaming-content {
+                font-size: 1.5rem;
+                line-height: 1.5;
+                font-weight: 500;
+                margin-bottom: 10rem;
+            }
+            
+            #h1-color {
+                color: #0f4c75;
+            }
+            
+            #h1-color:hover {
+                color: #00bcd4;
+            }
+            
+            html {
+                scroll-behavior: smooth;
+            }
+            /*contact section goes here*/
+            
+            h2 {
+                color: white;
+                font-size: 2.5rem;
+                font-weight: bold;
+            }
+            
+            #contact-us {
+                height: 50rem;
+                width: 100%;
+                background-color: #333;
+                overflow: hidden;
+                text-align: center;
+            }
+            
+            .contact-me {
+                /*text-align: center;*/
+                justify-content: center;
+                width: 17%;
+                margin: 0 auto;
+                padding: 50px 0 50px 0;
+            }
+            
+            #text-box {
+                text-align: center;
+                box-shadow: 1rem 1rem 1rem, blue;
+                border-radius: 2rem;
+                margin-bottom: 2rem;
+                padding: .5rem;
+            }
+            
+            #multiline {
+                border: 2px solid black;
+                margin-top: 5rem;
+                border-top-left-radius: 2rem;
+                border-bottom-right-radius: 2rem;
+            }
+            
+            button {
+                margin-bottom: 2rem;
+                width: 15%;
+                border-radius: 2rem;
+                border: 2px solid black;
+                background-color: white;
+            }
+            
+            #footer {
+                text-align: center;
+            }
+            
+            i {
+                margin: 60px 30px;
+            }
+            
+            .copyright {
+                padding-bottom: 30px;
+                color: grey;
+            }
+            
+            button:hover {
+                background-color: lightgray;
+            }
