@@ -155,6 +155,12 @@
                 font-size: 2.5rem;
                 font-weight: bold;
             }
+@media only screen and (max-width: 600px) {
+  .contact-me {
+width:200px;
+}
+  }
+}
             
             #contact-us {
                 height: 50rem;
